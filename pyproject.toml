@@ -1,0 +1,16 @@
+[project]
+name = "drl-dqn-ddqn-ppo-experiments"
+version = "0.1.0"
+description = "PyTorch implementations of DQN, Double DQN with n-step returns, and PPO, with ablation studies."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium[mujoco]==1.2.3",
+    "mujoco==3.5.0",
+    "jumping-task @ git+https://github.com/prabhatnagarajan/jumping-task@510be4456f7e5ac936173185dc40660e4a404915",
+    "matplotlib>=3.10",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "torch>=2.10",
+    "tqdm>=4.67",
+]
